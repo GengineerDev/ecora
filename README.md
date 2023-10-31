@@ -1,5 +1,4 @@
-<a name="readme-top"></a>
-# ECORA
+
 
 <details>
   <summary>Table of Contents</summary>
