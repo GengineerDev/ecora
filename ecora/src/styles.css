@@ -94,18 +94,21 @@
     src: url('/fonts/TT Commons Thin.otf');
 }
 
-ion-content {
-    --background: #9ed321;
+ion-content, ion-item {
     font-family: 'TT Commons Regular', 'Times New Roman', Times, serif;
     --color: #fff;
+}
+
+ion-content {
+    --background: #9ed321;
 }
 
 h2 {
     font-family: 'TT Commons Demibold', 'Times New Roman', Times, serif;
 }
 
-ion-list {
-    --background: #9ed321;
+ion-item {
+    --background: unset;
 }
 
 ion-button {

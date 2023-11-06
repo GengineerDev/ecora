@@ -31,16 +31,7 @@
 <ion-content>
 	<img src="/plantbox-logo.jpg" alt="PlantBox logo" class="logo"/>
 	<div class="button-container default">
-		<ion-button expand="block" color="dark">Login</ion-button>
+		<ion-button expand="block" color="dark" href="/app/login">Login</ion-button>
 		<ion-button expand="block" color="medium">Register</ion-button>
 	</div>
-	
-	<!-- <ion-list>
-		<ion-item>
-			<ion-input label="Username"></ion-input>
-		</ion-item>
-		<ion-item>
-			<ion-input label="Password" type="password"></ion-input>
-		</ion-item>
-	</ion-list> -->
 </ion-content>
