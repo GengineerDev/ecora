@@ -2,6 +2,10 @@
 	import '../styles.css'
 </script>
 
+<svelte:head>
+	<title>Welcome to Ecora, powered by PlantBox</title>
+</svelte:head>
+
 <style>
 	.logo {
 		width: 100%;
