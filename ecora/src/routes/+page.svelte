@@ -20,8 +20,8 @@
 		bottom: 20%;
 		left: 50%;
 		transform: translateX(-50%);
-		width: 80%;
-		margin: 0 auto;
+		/* width: 80%; */
+		/* margin: 0 auto; */
 		display: flex;
 		flex-direction: column;
 		gap: 15px;
@@ -30,7 +30,7 @@
 
 <ion-content>
 	<img src="/plantbox-logo.jpg" alt="PlantBox logo" class="logo"/>
-	<div class="button-container">
+	<div class="button-container default">
 		<ion-button expand="block" color="dark">Login</ion-button>
 		<ion-button expand="block" color="medium">Register</ion-button>
 	</div>

@@ -4,22 +4,118 @@
     }
 }
 
+@font-face {
+    font-family: 'TT Commons Black Italic';
+    src: url('/fonts/TT Commons Black Italic.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons Black';
+    src: url('/fonts/TT Commons Black.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons Bold Italic';
+    src: url('/fonts/TT Commons Bold Italic.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons Bold';
+    src: url('/fonts/TT Commons Bold.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons DemiBold Italic';
+    src: url('/fonts/TT Commons DemiBold Italic.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons DemiBold';
+    src: url('/fonts/TT Commons DemiBold.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons ExtraBold Italic';
+    src: url('/fonts/TT Commons ExtraBold Italic.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons ExtraBold';
+    src: url('/fonts/TT Commons ExtraBold.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons ExtraLight Italic';
+    src: url('/fonts/TT Commons ExtraLight Italic.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons ExtraLight';
+    src: url('/fonts/TT Commons ExtraLight.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons Italic';
+    src: url('/fonts/TT Commons Italic.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons Light Italic';
+    src: url('/fonts/TT Commons Light Italic.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons Light';
+    src: url('/fonts/TT Commons Light.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons Medium Italic';
+    src: url('/fonts/TT Commons Medium Italic.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons Medium';
+    src: url('/fonts/TT Commons Medium.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons Regular';
+    src: url('/fonts/TT Commons Regular.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons Thin Italic';
+    src: url('/fonts/TT Commons Thin Italic.otf');
+}
+
+@font-face {
+    font-family: 'TT Commons Thin';
+    src: url('/fonts/TT Commons Thin.otf');
+}
+
 ion-content {
     --background: #9ed321;
+    font-family: 'TT Commons Regular', 'Times New Roman', Times, serif;
+    --color: #fff;
+}
+
+h2 {
+    font-family: 'TT Commons Demibold', 'Times New Roman', Times, serif;
 }
 
 ion-list {
     --background: #9ed321;
 }
 
-/* ion-input.custom {
-    --background: #9ed321;
-    --color: black;
+ion-button {
+    font-family: 'TT Commons Medium', 'Times New Roman', Times, serif;
 }
 
-ion-input.custom.ios .input-bottom .helper-text,
-ion-input.custom.ios .input-bottom .counter,
-ion-input.custom.md .input-bottom .helper-text,
-ion-input.custom.md .input-bottom .counter {
-  color: black;
-} */
+.default {
+    width: 80%;
+    margin:0 auto;
+}
+
+
+    

@@ -14,10 +14,18 @@
 		display: block;
 	
 	}
+
+    .login-content {
+        width: 80%;
+        margin:0 auto;
+    }
 </style>
 
 <ion-content>
 	<img src="/plantbox-logo.jpg" alt="PlantBox logo" class="logo"/>
-    <h2>Welcome!</h2>
-    <p>please login to continue our app</p>
+    <div class="login-content default">
+        <h2>Welcome!</h2>
+        <p>please login to continue our app</p>
+    </div>
+    
 </ion-content>
